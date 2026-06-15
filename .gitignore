@@ -1,0 +1,13 @@
+.env
+.env.local
+node_modules/
+target/
+dist/
+uploads/
+*.log
+logs/
+tools/
+aethervault-e2e-*.txt
+__pycache__/
+.venv/
+.DS_Store

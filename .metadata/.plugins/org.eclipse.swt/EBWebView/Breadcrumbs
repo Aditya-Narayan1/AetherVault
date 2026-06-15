@@ -1,0 +1,108 @@
+0:02:30 Microsoft.Shutdown.TabStripModel.CloseTabs
+0:02:30 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+0:02:30 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+0:02:30 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+0:02:30 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+0:02:30 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+0:02:30 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+0:02:30 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+0:02:30 Tab4 RenderProcessGone
+0:02:30 Microsoft.UnloadController.ClearUnloadState
+0:02:30 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+0:02:30 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+0:02:30 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+0:02:30 Browser4 Close Tab4 at 0
+0:02:30 Microsoft.UnloadController.ClearUnloadState
+0:02:30 Tab4 WebContentsDestroyed
+0:02:30 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:02:30 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:02:30 Microsoft.Shutdown.OnWindowClosing
+0:02:30 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:02:30 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:02:30 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+0:02:30 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+0:02:30 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+0:02:30 Widget Closed: BrowserWidget
+0:02:30 Microsoft.UnloadController.TabStripEmpty
+0:02:30 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+0:02:30 Microsoft.Shutdown.OnWindowClosing
+0:02:30 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+0:02:30 Microsoft.Browser_Removed
+0:02:43 Tab3 StartNav61 #typed
+0:02:43 Tab3 FinishNav61 ERR_ABORTED
+0:02:43 Tab3 StartNav62 #typed
+0:02:43 Tab3 FinishNav62
+0:02:43 Tab3 PageLoad
+0:02:45 Memory Pressure: Moderate
+0:02:55 Memory Pressure: Moderate
+0:03:05 Memory Pressure: Moderate
+0:03:15 Memory Pressure: Moderate
+0:03:25 Memory Pressure: Moderate
+0:03:35 Memory Pressure: Moderate
+0:03:45 Memory Pressure: Moderate
+0:03:55 Memory Pressure: Moderate
+0:04:05 Memory Pressure: Moderate
+0:04:15 Memory Pressure: Moderate
+0:04:25 Memory Pressure: Moderate
+0:04:35 Memory Pressure: Moderate
+0:04:45 Memory Pressure: Moderate
+0:04:55 Memory Pressure: Moderate
+0:05:05 Memory Pressure: Moderate
+0:05:15 Memory Pressure: Moderate
+0:05:25 Memory Pressure: Moderate
+0:05:35 Memory Pressure: Moderate
+0:05:45 Memory Pressure: Moderate
+0:05:55 Memory Pressure: Moderate
+0:06:05 Memory Pressure: Moderate
+0:06:15 Memory Pressure: Moderate
+0:06:25 Memory Pressure: Moderate
+0:06:35 Memory Pressure: Moderate
+0:06:40 Memory Pressure: None
+0:07:15 Memory Pressure: Moderate
+0:07:20 Memory Pressure: None
+0:07:25 Memory Pressure: Moderate
+0:07:35 Memory Pressure: Moderate
+0:07:45 Memory Pressure: Moderate
+0:07:55 Memory Pressure: Moderate
+0:08:05 Memory Pressure: Moderate
+0:08:15 Memory Pressure: Moderate
+0:08:25 Memory Pressure: None
+0:15:36 Tab3 StartNav63 #typed
+0:15:36 Tab3 FinishNav63
+0:15:36 Tab3 PageLoad
+0:15:39 Tab2 StartNav64 #typed
+0:15:39 Tab2 FinishNav64 ERR_ABORTED
+0:15:39 Tab2 StartNav65 #typed
+0:15:39 Tab2 FinishNav65
+0:15:39 Tab2 PageLoad
+0:15:40 Tab2 StartNav66 #typed
+0:15:40 Tab2 FinishNav66
+0:15:40 Tab2 PageLoad
+0:16:33 Tab3 StartNav67 #typed
+0:16:33 Tab3 FinishNav67
+0:16:33 Tab3 PageLoad
+0:16:35 Tab3 StartNav68 #typed
+0:16:35 Tab3 FinishNav68 ERR_ABORTED
+0:16:35 Tab3 StartNav69 #typed
+0:16:35 Tab3 FinishNav69
+0:16:35 Tab3 PageLoad
+0:16:36 Tab3 StartNav70 #typed
+0:16:36 Tab3 FinishNav70
+0:16:36 Tab3 PageLoad
+0:16:36 Tab3 StartNav71 #typed
+0:16:36 Tab3 FinishNav71 ERR_ABORTED
+0:16:36 Tab3 StartNav72 #typed
+0:16:36 Tab3 FinishNav72
+0:16:36 Tab3 PageLoad
+0:16:37 Tab3 StartNav73 #typed
+0:16:37 Tab3 FinishNav73
+0:16:37 Tab3 PageLoad
+0:16:39 Tab3 StartNav74 #typed
+0:16:39 Tab3 FinishNav74 ERR_ABORTED
+0:16:39 Tab3 StartNav75 #typed
+0:16:39 Tab3 FinishNav75
+0:16:39 Tab3 PageLoad
+0:16:39 Tab3 StartNav76 #typed
+0:16:39 Tab3 FinishNav76
+0:16:39 Tab3 PageLoad
+0:23:06 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp

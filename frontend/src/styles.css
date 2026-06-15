@@ -1,0 +1,136 @@
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.app-main {
+  background:
+    linear-gradient(135deg, rgba(37, 99, 235, 0.07), transparent 34%),
+    linear-gradient(315deg, rgba(15, 118, 110, 0.07), transparent 36%);
+}
+
+.sidebar-shell {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-block {
+  min-height: 78px;
+}
+
+.sidebar-user {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-top: 1px solid rgba(128, 128, 128, 0.18);
+}
+
+.page-heading {
+  margin-bottom: 20px;
+}
+
+.metric-card {
+  padding: 24px;
+  border: 1px solid rgba(128, 128, 128, 0.14);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08) !important;
+}
+
+.metric-icon {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #2563eb, #0f766e);
+}
+
+.auth-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    linear-gradient(120deg, rgba(37, 99, 235, 0.13), transparent 38%),
+    linear-gradient(300deg, rgba(15, 118, 110, 0.12), transparent 42%),
+    #f3f6fb;
+}
+
+.auth-card {
+  width: min(100%, 440px);
+  padding: 34px;
+  border: 1px solid rgba(128, 128, 128, 0.16);
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.14) !important;
+}
+
+.auth-mark {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #2563eb, #0f766e);
+}
+
+.auth-card .MuiButton-contained {
+  min-height: 46px;
+}
+
+.auth-card .MuiAlert-root {
+  align-items: center;
+  border: 1px solid rgba(185, 28, 28, 0.12);
+}
+
+.auth-card .MuiOutlinedInput-root {
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.MuiDrawer-paper {
+  border-right: 1px solid rgba(128, 128, 128, 0.16) !important;
+}
+
+.MuiListItemButton-root.Mui-selected {
+  font-weight: 800;
+  border: 1px solid rgba(37, 99, 235, 0.16);
+}
+
+.MuiTableContainer-root,
+.MuiPaper-root {
+  border-radius: 8px;
+}
+
+.MuiPaper-root {
+  border: 1px solid rgba(128, 128, 128, 0.14);
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  color: #475569;
+  background: rgba(37, 99, 235, 0.06);
+}
+
+.MuiTableBody-root .MuiTableRow-root:hover {
+  background: rgba(37, 99, 235, 0.04);
+}
+
+.MuiTableCell-root {
+  border-bottom-color: rgba(128, 128, 128, 0.14) !important;
+}
+
+table {
+  min-width: 680px;
+}
+
+.MuiPaper-root {
+  overflow-x: auto;
+}
