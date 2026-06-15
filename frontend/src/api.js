@@ -1,7 +1,14 @@
 import axios from "axios";
 
+const getDefaultApiBaseUrl = () => {
+  if (typeof window !== "undefined" && window.location.hostname.endsWith(".onrender.com")) {
+    return "https://aethervault-gateway.onrender.com";
+  }
+  return "http://localhost:8000";
+};
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "http://localhost:8000"
+  baseURL: import.meta.env.VITE_API_BASE_URL || getDefaultApiBaseUrl()
 });
 
 export function getApiErrorMessage(error, fallback = "Request failed") {
@@ -13,7 +20,7 @@ export function getApiErrorMessage(error, fallback = "Request failed") {
     return data.message;
   }
   if (error.message === "Network Error") {
-    return "Network Error: make sure the FastAPI gateway URL is correct and refresh the page.";
+    return `Network Error: frontend could not reach ${api.defaults.baseURL}. Check that the gateway is live and redeploy the frontend.`;
   }
   return error.message || fallback;
 }
