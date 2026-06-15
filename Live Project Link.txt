@@ -1,0 +1,18 @@
+AetherVault - Live Project Links
+
+AetherVault is a full-stack secure document management system built for the Database Systems Engineering and Distributed Backend Development course. It includes JWT authentication, role-based access control, document upload and download, category management, PostgreSQL storage, MongoDB-based semantic search, and a FastAPI gateway connecting the frontend with the backend services.
+
+Live Frontend:
+https://aethervault-frontend.onrender.com
+
+Gateway Health:
+https://aethervault-gateway.onrender.com/health
+
+Spring Boot Swagger API:
+https://aethervault-spring-backend.onrender.com/swagger-ui.html
+
+Node.js Search Service Health:
+https://aethervault-node-backend.onrender.com/health
+
+GitHub Repository:
+https://github.com/Aditya-Narayan1/AetherVault

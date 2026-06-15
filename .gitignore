@@ -1,5 +1,6 @@
 .env
 .env.local
+.metadata/
 node_modules/
 target/
 dist/
