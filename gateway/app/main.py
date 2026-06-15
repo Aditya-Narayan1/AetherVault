@@ -34,8 +34,11 @@ def target_for(path: str) -> str:
 async def proxy(request: Request, path: str) -> Response:
     body = await request.body()
     headers = dict(request.headers)
-    headers.pop("host", None)
-    headers.pop("content-length", None)
+    headers = {
+        key: value
+        for key, value in headers.items()
+        if key.lower() not in {"host", "content-length", "accept-encoding"}
+    }
     url = f"{target_for('/' + path)}/{path}"
 
     async with httpx.AsyncClient(timeout=60.0) as client:
@@ -47,7 +50,7 @@ async def proxy(request: Request, path: str) -> Response:
             headers=headers,
         )
 
-    excluded = {"content-encoding", "transfer-encoding", "connection"}
+    excluded = {"content-encoding", "transfer-encoding", "connection", "content-length"}
     response_headers = {k: v for k, v in proxied.headers.items() if k.lower() not in excluded}
     return Response(content=proxied.content, status_code=proxied.status_code, headers=response_headers)
 
